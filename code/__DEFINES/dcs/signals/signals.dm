@@ -430,6 +430,8 @@
 #define COMSIG_TURF_MULTIZ_NEW "turf_multiz_new"
 ///called when an elevator enters this turf
 #define COMSIG_TURF_INDUSTRIAL_LIFT_ENTER "turf_industrial_life_enter"
+// checking when water pump activated, then draining water, its easy
+#define COMSIG_TURF_WATER_PUMP_ACTIVATED "turf_water_pump_activated"
 
 // /obj signals
 #define COMSIG_OBJ_SETANCHORED "obj_setanchored"				//called in /obj/structure/setAnchored(): (value)

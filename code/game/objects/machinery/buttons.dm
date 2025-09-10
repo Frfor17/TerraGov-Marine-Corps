@@ -80,6 +80,14 @@
 	next_activate = world.time + 3 SECONDS
 	return TRUE
 
+/obj/machinery/button/water_pump
+	name = "water pump button"
+	desc = "A remote control switch for a water pump."
+	resistance_flags = RESIST_ALL
+
+/obj/machinery/button/water_pump/attack_hand(mob/user, list/modifiers)
+	SEND_GLOBAL_SIGNAL(COMSIG_TURF_WATER_PUMP_ACTIVATED)
+
 /obj/machinery/button/door
 	name = "door button"
 	desc = "A door remote control switch."

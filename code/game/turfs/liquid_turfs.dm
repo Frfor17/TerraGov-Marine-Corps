@@ -103,6 +103,37 @@
 	if(carbon_mob.on_fire)
 		carbon_mob.ExtinguishMob()
 
+/turf/open/liquid/water/drainable_water
+	name = "draining water"
+	var/drained = FALSE
+	var/started_draining = FALSE
+
+/turf/open/liquid/water/drainable_water/Initialize(mapload)
+	. = ..()
+
+/turf/open/liquid/water/drainable_water/starting_turf_for_draining
+
+/turf/open/liquid/water/drainable_water/starting_turf_for_draining/Initialize(mapload)
+	. = ..()
+	RegisterSignal(src, COMSIG_TURF_WATER_PUMP_ACTIVATED, PROC_REF(on_water_pump_activate))
+
+/turf/open/liquid/water/drainable_water/starting_turf_for_draining/proc/on_water_pump_activate()
+	SIGNAL_HANDLER_DOES_SLEEP
+	start_draining()
+
+/turf/open/liquid/water/drainable_water/proc/drain_one_tile()
+	started_draining = TRUE
+	addtimer(CALLBACK(src,PROC_REF(ChangeTurf(turf/open/floor/plating))), 2 SECONDS)
+	drained = TRUE
+
+/turf/open/liquid/water/drainable_water/proc/start_draining()
+	src.drain_one_tile()
+	var/list/directions = list(NORTH, SOUTH, EAST, WEST)
+	for (var/dir in directions)
+		var/turf/open/liquid/water/drainable_water/currently_draining_tile = get_step(src, dir)
+		if(isturf(currently_draining_tile))
+			start_draining(currently_draining_tile)
+
 /turf/open/liquid/water/sea
 	name = "water"
 	icon_state = "seadeep"
