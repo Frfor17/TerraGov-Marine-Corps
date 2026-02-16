@@ -151,10 +151,16 @@
 	},
 /turf/open/floor/wood/variable,
 /area/space)
+"bw" = (
+/obj/structure/table/reinforced,
+/obj/effect/spawner/random/misc/trash,
+/turf/open/floor/plating/ground/concrete,
+/area/space)
 "bA" = (
 /obj/structure/bed/chair/comfy/black{
 	dir = 8
 	},
+/obj/effect/spawner/random/decal/blood,
 /turf/open/urban/street/cement3,
 /area/space)
 "bB" = (
@@ -211,6 +217,12 @@
 "bO" = (
 /obj/structure/largecrate/supply/ammo,
 /turf/open/floor/mainship/black/full,
+/area/space)
+"bP" = (
+/obj/structure/table/urban/shiny_brown,
+/obj/item/folder/white,
+/obj/item/clock,
+/turf/open/urban/street/cement3,
 /area/space)
 "bR" = (
 /obj/effect/landmark/corpsespawner/icc,
@@ -350,6 +362,10 @@
 /turf/open/floor/tile/dark/brown2/corner{
 	dir = 1
 	},
+/area/space)
+"cH" = (
+/obj/effect/spawner/random/misc/trash,
+/turf/open/floor/plating/ground/concrete,
 /area/space)
 "cI" = (
 /obj/structure/largecrate/random/mini/ammo,
@@ -689,6 +705,12 @@
 /obj/item/storage/backpack/lightpack/icc/guard,
 /turf/open/floor/tile/dark,
 /area/space)
+"fW" = (
+/obj/structure/table/urban/shiny_brown,
+/obj/structure/paper_bin,
+/obj/item/flashlight/pen,
+/turf/open/urban/street/cement3,
+/area/space)
 "fZ" = (
 /obj/structure/closet/secure_closet/personal,
 /obj/item/clothing/under/icc,
@@ -922,6 +944,10 @@
 /turf/open/urban/street/sidewalk{
 	dir = 10
 	},
+/area/space)
+"hO" = (
+/obj/effect/spawner/random/decal/blood,
+/turf/open/urban/street/cement2,
 /area/space)
 "hR" = (
 /obj/machinery/door/poddoor/timed_late/containment/landing_zone{
@@ -1402,6 +1428,11 @@
 /obj/structure/rock/brown/large_boulder,
 /turf/open/floor/plating/ground/mars/random/cave/darker,
 /area/space)
+"mi" = (
+/obj/effect/landmark/corpsespawner/icc/officer,
+/obj/effect/spawner/random/decal/blood,
+/turf/open/urban/street/cement3,
+/area/space)
 "mj" = (
 /obj/structure/table/reinforced/flipped,
 /obj/item/tool/screwdriver,
@@ -1451,6 +1482,10 @@
 	},
 /obj/structure/table,
 /turf/open/floor/plating/ground/dirt2,
+/area/space)
+"mA" = (
+/obj/effect/spawner/random/misc/trash,
+/turf/open/urban/street/cement2,
 /area/space)
 "mB" = (
 /turf/open/floor/roof/rusty,
@@ -1535,6 +1570,10 @@
 	pixel_z = 17
 	},
 /turf/open/urban/street/cement1,
+/area/space)
+"no" = (
+/obj/effect/spawner/random/misc/trash,
+/turf/open/urban/street/cement3,
 /area/space)
 "nr" = (
 /turf/open/urban/street/sidewalkcorner,
@@ -1955,6 +1994,11 @@
 /obj/structure/table/reinforced,
 /obj/machinery/microwave,
 /turf/open/floor/iron/kitchen_coldroom,
+/area/space)
+"qX" = (
+/obj/structure/table/urban/shiny_brown,
+/obj/item/folder/black,
+/turf/open/urban/street/cement2,
 /area/space)
 "qY" = (
 /obj/structure/rock/variable/tinyrock/brown2,
@@ -2509,6 +2553,10 @@
 	pixel_z = -1
 	},
 /turf/open/floor/plating/ground/dirt2,
+/area/space)
+"wb" = (
+/obj/structure/prop/urban/misc/cabinet,
+/turf/open/urban/street/cement2,
 /area/space)
 "wc" = (
 /obj/effect/spawner/random/decal/blood,
@@ -3621,6 +3669,11 @@
 /obj/item/tool/weldpack,
 /turf/open/floor/tile/dark,
 /area/space)
+"Fi" = (
+/obj/structure/window/framed/urban/reinforced,
+/obj/structure/curtain/open/black,
+/turf/open/urban/street/cement3,
+/area/space)
 "Fk" = (
 /obj/structure/stairs/multiz/directional/north,
 /turf/open/openspace,
@@ -3691,6 +3744,10 @@
 "FW" = (
 /obj/structure/table/urban/shiny_brown,
 /turf/open/floor/mainship/floor,
+/area/space)
+"Ga" = (
+/obj/machinery/photocopier,
+/turf/open/urban/street/cement2,
 /area/space)
 "Gd" = (
 /obj/machinery/door/airlock/multi_tile/urban/generic_solid{
@@ -3830,6 +3887,14 @@
 	dir = 4
 	},
 /turf/open/urban/street/cement2,
+/area/space)
+"Hv" = (
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/effect/spawner/random/medical/bloodpack,
+/obj/effect/spawner/random/medical/bloodpack,
+/obj/structure/closet/crate/freezer,
+/turf/open/urban/street/cement1,
 /area/space)
 "HD" = (
 /obj/machinery/door/poddoor/timed_late/containment/landing_zone{
@@ -4110,6 +4175,13 @@
 "KI" = (
 /obj/structure/rock/brown/pile/alt,
 /turf/open/ground,
+/area/space)
+"KT" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 4
+	},
+/obj/effect/spawner/random/decal/blood,
+/turf/open/urban/street/cement2,
 /area/space)
 "KU" = (
 /obj/machinery/door/airlock/urban/generic{
@@ -4669,6 +4741,10 @@
 	dir = 2
 	},
 /turf/open/floor/freezer,
+/area/space)
+"PW" = (
+/obj/effect/spawner/random/misc/plant,
+/turf/open/urban/street/cement3,
 /area/space)
 "Qa" = (
 /obj/item/trash/mre/som{
@@ -5630,10 +5706,19 @@
 	},
 /turf/open/floor/plating/ground/concrete,
 /area/space)
+"YZ" = (
+/obj/effect/spawner/random/misc/trash,
+/turf/open/floor/plating/ground/dirt2,
+/area/space)
 "Za" = (
 /obj/structure/rock/variable/tinyrock/brown2,
 /obj/structure/rock/brown/pile/alt,
 /turf/open/floor/plating/ground/mars/random/cave/darker,
+/area/space)
+"Zc" = (
+/obj/structure/table/urban/shiny_brown,
+/obj/effect/spawner/random/food_or_drink,
+/turf/open/urban/street/cement2,
 /area/space)
 "Zd" = (
 /obj/structure/largecrate/random,
@@ -7584,7 +7669,7 @@ JV
 HU
 FF
 ks
-Ci
+cH
 Ci
 Ci
 Ci
@@ -8103,7 +8188,7 @@ JV
 JV
 Ci
 qC
-is
+bw
 Ci
 wK
 gA
@@ -8279,13 +8364,13 @@ qC
 Ci
 Ci
 gA
-Ow
-Ow
-Ow
-Ow
+gn
+Ga
+qX
+Oh
 gA
 do
-WV
+YZ
 WV
 WV
 WV
@@ -8448,12 +8533,12 @@ JV
 Ci
 is
 MC
-Ci
-Ci
+wc
+wc
 ph
 Ow
-Ow
-Ow
+hO
+hO
 Ow
 gA
 do
@@ -8620,13 +8705,13 @@ JV
 Ci
 wM
 Mz
-Ci
-Ci
+wc
+cH
 gA
 Pj
+Zc
 Ow
-Ow
-Ow
+hO
 If
 do
 do
@@ -8792,13 +8877,13 @@ JV
 JV
 XZ
 Ci
-Ci
+wc
 Ci
 gA
 EN
 tp
 lq
-Ow
+hO
 If
 do
 do
@@ -9139,9 +9224,9 @@ Zd
 Ci
 Ci
 gA
-Ow
-Ow
-Pj
+mA
+wb
+KT
 Ow
 gA
 WV
@@ -9309,7 +9394,7 @@ Ci
 Ci
 Ci
 Ci
-Ci
+cH
 gA
 GG
 tp
@@ -12218,7 +12303,7 @@ WV
 WV
 gA
 ss
-ss
+Hv
 gA
 sy
 Nq
@@ -12390,7 +12475,7 @@ WV
 WV
 gA
 ss
-ss
+Hv
 gA
 sy
 Nq
@@ -12562,7 +12647,7 @@ WV
 WV
 gA
 ss
-ss
+Hv
 gA
 ej
 Nq
@@ -12906,7 +12991,7 @@ WV
 WV
 gA
 wz
-Gh
+no
 Gh
 Gh
 gA
@@ -13076,7 +13161,7 @@ WV
 WV
 WV
 WV
-ru
+Fi
 wz
 Gh
 FO
@@ -13248,11 +13333,11 @@ WV
 WV
 WV
 WV
-ru
+Fi
 Px
 Gh
 Ys
-Yq
+fW
 gA
 Gh
 MG
@@ -13420,15 +13505,15 @@ WV
 WV
 WV
 Ao
-ru
+Fi
 oo
 Gh
-yB
+mi
 bA
 gA
 Gh
 Gh
-Gh
+no
 xp
 gA
 EA
@@ -13593,10 +13678,10 @@ WV
 WV
 yW
 gA
-Yq
+bP
 Gh
 Gh
-Gh
+PW
 gA
 mV
 tg
@@ -13765,9 +13850,9 @@ WV
 WV
 WV
 gA
-ru
-ru
-ru
+Fi
+Fi
+Fi
 gA
 gA
 ru
